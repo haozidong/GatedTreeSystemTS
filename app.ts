@@ -1,4 +1,9 @@
-﻿import { IGatedNodeCreator, GatedNodeCreator, IGatedTree, GatedTree, IGatedTreeController, GatedTreeController } from "./GatedTreeSystem";
+﻿import { IGatedNodeCreator } from "./IGatedNodeCreator";
+import { GatedNodeCreator } from "./GatedNodeCreator";
+import { IGatedTree } from "./IGatedTree";
+import { GatedTree } from "./GatedTree";
+import { IGatedTreeController } from "./IGatedTreeController";
+import { GatedTreeController } from "./GatedTreeController";
 
 try {
     //Set depth default as 4;
