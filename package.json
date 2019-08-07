@@ -1,0 +1,25 @@
+{
+  "name": "GatedTreeSystem",
+  "version": "0.0.0",
+  "description": "GatedTreeSystem",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^8.0.14",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "ts-mockito": "^2.4.2",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "webpack": "^4.38.0"
+  },
+  "scripts": {
+    "test": "mocha -r ts-node/register *.spec.ts"
+  }
+}
